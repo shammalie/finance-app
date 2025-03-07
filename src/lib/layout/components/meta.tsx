@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet-async';
 
-const APP_NAME = 'vite-react-tailwind-starter';
+const APP_NAME = 'finance-app';
 
 export const Meta = () => {
   return (
