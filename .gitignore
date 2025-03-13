@@ -28,3 +28,6 @@ coverage/
 
 # React Router
 .react-router
+
+# Go
+tmp
