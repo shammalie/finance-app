@@ -4,6 +4,13 @@
     "dsznajder.es7-react-js-snippets",
     "mhutchie.git-graph",
     "oderwat.indent-rainbow",
-    "yoavbls.pretty-ts-errors"
+    "yoavbls.pretty-ts-errors",
+    "biomejs.biome",
+    "ms-azuretools.vscode-docker",
+    "golang.go",
+    "christian-kohler.npm-intellisense",
+    "bradlc.vscode-tailwindcss",
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-rename-tag"
   ]
 }

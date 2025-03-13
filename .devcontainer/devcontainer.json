@@ -18,7 +18,25 @@
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [
 		5173
-	]
+	],
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"dbaeumer.vscode-eslint",
+				"dsznajder.es7-react-js-snippets",
+				"mhutchie.git-graph",
+				"oderwat.indent-rainbow",
+				"yoavbls.pretty-ts-errors",
+				"biomejs.biome",
+				"ms-azuretools.vscode-docker",
+				"golang.go",
+				"christian-kohler.npm-intellisense",
+				"bradlc.vscode-tailwindcss",
+				"formulahendry.auto-close-tag",
+				"formulahendry.auto-rename-tag"
+			]
+		}
+	}
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "yarn install",
