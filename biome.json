@@ -69,7 +69,7 @@
   },
   "overrides": [
     {
-      "include": ["src/lib/pages/**/index.tsx", "*.ts"],
+      "include": ["src/pages/**/index.tsx", "*.ts"],
       "linter": {
         "rules": {
           "style": {

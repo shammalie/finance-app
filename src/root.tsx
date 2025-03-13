@@ -8,12 +8,12 @@ import {
   isRouteErrorResponse,
 } from 'react-router';
 
-import { Layout as AppLayout } from '@/lib/layout';
+import { Layout as AppLayout } from '@/layout';
 import type { Route } from './+types/root';
 
 // fonts
 import '@fontsource-variable/plus-jakarta-sans';
-import '@/lib/styles/globals.css';
+import '@/styles/globals.css';
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (

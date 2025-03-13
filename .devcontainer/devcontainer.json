@@ -6,7 +6,8 @@
 	"image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
 	"features": {
 		"ghcr.io/devcontainers-extra/features/curl-apt-get:1": {},
-		"ghcr.io/devcontainers-extra/features/pnpm:2": {}
+		"ghcr.io/devcontainers-extra/features/pnpm:2": {},
+		"ghcr.io/devcontainers/features/go:1": {}
 	},
 	"mounts": ["source=/var/run/docker.sock,target=/var/run/docker-host.sock,type=bind"],
 	"runArgs": ["--add-host=host.docker.internal:host-gateway"],
